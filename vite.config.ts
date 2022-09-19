@@ -33,6 +33,7 @@ export default defineConfig({
   plugins: [
     vue(),
     Components({
+      dirs: ['src/widgets', 'src/entities', 'src/features', 'src/widgets'],
       // allow auto load markdown components under `./src/components/`
       extensions: ['vue', 'md'],
       // allow auto import and register components used in markdown
